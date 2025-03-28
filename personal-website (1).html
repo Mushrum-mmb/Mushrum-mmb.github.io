@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bùi Nguyễn Phương Nam - AI Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .shadow-soft {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #6A11CB 0%, #2575FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="container mx-auto px-4 py-12 max-w-5xl">
+        <!-- Header: Giới Thiệu -->
+        <header class="bg-white rounded-xl p-8 text-center mb-12 shadow-soft">
+            <div class="relative inline-block">
+                <img src="C:\Users\DELL\Downloads\be61c70fc34d7d13245c.jpg" alt="Bùi Nguyễn Phương Nam" class="mx-auto rounded-full w-40 h-40 mb-6 object-cover border-4 border-blue-500 shadow-lg">
+                <div class="absolute bottom-4 right-0 bg-blue-500 text-white rounded-full p-1">
+                    <i data-feather="check-circle" class="w-5 h-5"></i>
+                </div>
+            </div>
+            <h1 class="text-4xl font-bold gradient-text mb-2">Bùi Nguyễn Phương Nam</h1>
+            <p class="text-xl text-gray-600 mb-4">AI Developer | Sinh Viên Công Nghệ Thông Tin</p>
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/namush-bui-555948335/" target="_blank" class="text-blue-500 hover:text-blue-700 transition transform hover:scale-110">
+                    <i data-feather="linkedin" class="w-6 h-6"></i>
+                </a>
+                <a href="https://github.com/Mushrum-mmb" target="_blank" class="text-gray-800 hover:text-gray-600 transition transform hover:scale-110">
+                    <i data-feather="github" class="w-6 h-6"></i>
+                </a>
+                <a href="https://linktr.ee/Namush" target="_blank" class="text-green-500 hover:text-green-700 transition transform hover:scale-110">
+                    <i data-feather="link" class="w-6 h-6"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Nội Dung Chính -->
+        <main class="grid md:grid-cols-2 gap-8">
+            <!-- Trái: Kinh Nghiệm & Dự Án -->
+            <section class="bg-white rounded-xl p-6 shadow-soft">
+                <h2 class="text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-6 gradient-text">Giới Thiệu</h2>
+                <p class="text-sm text-gray-700 mb-4 leading-relaxed">
+                    Là một sinh viên IT đam mê AI, tôi không ngừng khám phá và phát triển các giải pháp học máy và trí tuệ nhân tạo. Với hơn 1 năm kinh nghiệm lập trình, tôi luôn tìm kiếm các cơ hội để ứng dụng công nghệ vào việc giải quyết các vấn đề thực tế.
+                </p>
+
+                <h2 class="text-2xl font-semibold border-b-2 border-blue-500 pb-2 my-6 gradient-text">Dự Án Nổi Bật</h2>
+                <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-lg hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-blue-600 mb-2">Hệ Thống Nhận Dạng Hình Ảnh Động Vật</h3>
+                        <p class="text-sm text-gray-500 mb-2">OpenCV, Python, PyTorch, Gradle</p>
+                        <p class="text-sm text-gray-700">Phát triển hệ thống nhận dạng hình ảnh động vật sử dụng các kỹ thuật tiên tiến về xử lý ảnh và học máy.</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-blue-600 mb-2">Ứng Dụng Android Quản Lý Học Tập</h3>
+                        <p class="text-sm text-gray-500 mb-2">Java, Android App Dev</p>
+                        <p class="text-sm text-gray-700">Xây dựng ứng dụng di động hỗ trợ sinh viên quản lý thời khóa biểu, điểm số và các hoạt động học tập.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phải: Kỹ Năng & Giáo Dục -->
+            <section class="bg-white rounded-xl p-6 shadow-soft">
+                <h2 class="text-2xl font-semibold border-b-2 border-blue-500 pb-2 mb-6 gradient-text">Kỹ Năng</h2>
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <div>
+                        <h3 class="font-semibold mb-2 text-blue-600">Kỹ Năng Chuyên Môn</h3>
+                        <ul class="space-y-1">
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Python, Java, C++
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>PyTorch, OpenCV
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>AI/ML/DL
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Android App Dev
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Software Development
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2 text-blue-600">Kỹ Năng Mềm</h3>
+                        <ul class="space-y-1">
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Giải quyết vấn đề
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Học hỏi nhanh
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Giao tiếp
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Quản lý dự án
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check" class="w-4 h-4 mr-2 text-blue-500"></i>Tiếng Anh (IELTS 6.0)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-semibold border-b-2 border-blue-500 pb-2 my-6 gradient-text">Giáo Dục</h2>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg text-blue-600">Đại Học Nông Lâm</h3>
+                    <p class="text-sm text-gray-600">Chuyên Ngành Công Nghệ Thông Tin • 2024-2028</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer: Liên Hệ -->
+        <footer class="text-center mt-12 pt-6 border-t border-gray-200">
+            <p class="text-sm text-gray-600">Email: nambnp30@gmail.com | Số điện thoại: +84 779 046 114</p>
+            <p class="text-sm text-gray-600">Linktree: <a href="https://linktr.ee/Namush" target="_blank" class="text-blue-500 hover:underline">linktr.ee/Namush</a></p>
+            <div class="mt-4 text-gray-500">
+                © 2025 Bùi Nguyễn Phương Nam. All Rights Reserved.
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
